@@ -1,0 +1,30 @@
+Data: 13/04/2017
+
+1. Especifique algumas portas importantes pré-definidas para o protocolo TCP/IP.
+	FTP (porta 21), SMTP (porta 25), HTTP (porta 80), POP3 (porta 110), DNS (porta 25).
+
+2. Com relação a endereços IP, responda:
+	(a) Qual é a diferença entre endereços IP externos e locais?
+		O IP local é aquele endereço que a máquina possui dentro de uma rede. O IP externo é o endereço da máquina na internet.
+	(b) Como endereços IP externos são definidos? Quem os define?
+
+	(c) Como endereços IP locais são definidos? Quem os define?
+
+	(d) O que é o DNS? Para que ele serve?
+		O DNS é um serviço que linka o domínio do site ao endereço IP do seu servidor. Ela serve para não tivermos que acessar um determinado servidor pelo seu endereço IP.
+
+3. Com relação à pilha de protocolos TCP/IP, responda:
+	(a) O que são suas camadas? Para que servem?
+		São níveis de protocolo. Servem para melhor tratamento de dados.
+	(b) Quais são as camadas existentes? Para que servem?
+		Camada de acesso à rede: especifica a forma que os dados devem ser encaminhados; Camada de internet: é encarregada de fornecer o pacote de dados; Camada de transporte: gerencia o encaminhamento e a transmissão de dados; Camada de aplicação: agrupo os dados aos padrões de rede.
+	(c) Quais camadas são utilizadas pela biblioteca de sockets?
+		Camada de aplicação;
+	(d) As portas usadas por servidores na função bind() se referem a qual camada?
+		Camada de aplicação;
+	(e) Os endereços usados por clientes na função connect() se referem a qual camada?
+		Camada de acesso à rede;
+
+4. Qual é a diferença entre os métodos GET e POST no protocolo HTTP?
+
+

@@ -1,0 +1,23 @@
+Data: 20/04/2017
+
+1. Defina qual modelo de Raspberry Pi você utilizará no projeto desta disciplina com o Raspberry Pi. Justifique sua escolha.
+	O Raspberry Pi 3 - Modelo B será  o que utilizaremos no desenvolvimento do projeto, tendo em vista que o mesmo possui duas conexõe sem fio (a definir qual será utilizada no projeto): Wireless ou Bluetooth. Outro fator importante foi o seu pre�o. O preço do mesmo estava acessível, pois se tivéssemos que comprar o RP2 mais o módulo Wifi/Bluetooth, o preço subiria muito, ficando difícil de comprar.
+
+2. Defina qual sistema operacional você utilizará no projeto desta disciplina com o Raspberry Pi. Justifique sua escolha.
+	Utilizaremos o sistema operacional padrão, o raspbian, pelo fato do mesmo já ter as ferramentas de compilação necessárias (GCC e Python). Caso seja necessário um sistema mais robusto para o projeto, utilizaremos o ArchLinux.
+
+3. Defina de qual forma você instalará o sistema operacional escolhido. Escreva o passo-a-passo da instalação e forneça os links necessários para isto.
+	Instalaremos o Raspbian via cartão SD. Passos:
+		1. Baixar o sistema operacional via NOOBs;
+		2. Formatar o cartão SD;
+		3. Conectar o cartão ao RP;
+		4. Ligar o RP e esperar os passos para configurar o NOOBs;
+		5. Ele instalará os arquivos necessários;
+		6. Fazer as configurações necessárias, como habilitar o protocolo SSH, colocar ele na rede wifi, etc
+	Links:
+		https://www.raspberrypi.org/documentation/installation/installing-images/
+		https://www.raspberrypi.org/documentation/installation/noobs.md
+		https://www.raspberrypi.org/documentation/remote-access/ssh/
+
+4. Defina de qual forma você desenvolverá software para o Raspberry Pi no projeto desta disciplina. Escreva o passo-a-passo do desenvolvimento e forneça os links necessários para isto.
+	Desenvolveremos o código no próprio raspberry. Compilando os códigos por ele e executando pelo mesmo, utilizando do SSH para dispensar o teclado e mou
